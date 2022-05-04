@@ -1,0 +1,127 @@
+{
+  "contractName": "Empty",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Empty.sol\":\"Empty\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Empty.sol\":{\"keccak256\":\"0xc9428575a6e18018d8cd467abf8a81226a02cd235e75d788dda36c1cdde48f70\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e02cefcfc6347867bef818a9fe9e37b215be3c4769c6b0a9ed79ff019340353b\",\"dweb:/ipfs/QmSQWdK5QdbreKgVgaBUV7h161HjHn1sGZWthNdS93oQXx\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d594292a98c90eb08d9d245bf05765c91d171bc93e653098fc5d55ffceb2c80864736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d594292a98c90eb08d9d245bf05765c91d171bc93e653098fc5d55ffceb2c80864736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "58:17:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "58:17:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.13;\n\ncontract Empty {}\n",
+  "sourcePath": "/Users/tsengmj/Documents/MJTseng/solidity_example/contracts/Empty.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Empty.sol",
+    "exportedSymbols": {
+      "Empty": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Empty",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Empty",
+        "nameLocation": "67:5:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "58:17:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:44:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Empty.sol",
+    "exportedSymbols": {
+      "Empty": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Empty",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Empty",
+        "nameLocation": "67:5:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "58:17:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:44:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5583E5e5909E1912742BCCC76e905EC892BD8f14",
+      "transactionHash": "0xb7117ba5e690627762687a426faff3df1ebbdd6be6d50e0d752ff370e7eaa771"
+    }
+  },
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-05-04T08:22:46.596Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
