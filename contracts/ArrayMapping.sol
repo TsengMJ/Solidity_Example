@@ -6,14 +6,20 @@ contract ArrayMapping {
     address[] public whiteListArray;
     mapping(address => bool) public whiteListMapping;
 
-    constructor() public {
+    modifier isOwner () {
+      require(msg.sender == owner);
+    }
+
+    constructor() {
         owner = msg.sender;
     }
 
-    function addUserIntoWhiteListArray(address _user) public {
+    // @isOwner 
+    function addUserIntoWhiteListArray(address _user) public isOwner isOwner2 {
+      // require(msg.sender == owner);
         uint256 length = whiteListArray.length;
         uint256 index = 0;
-        for (_; index < length; index++) {
+        for (; index < length; index++) {
             if (whiteListArray[index] == _user) {
                 break;
             }
@@ -24,11 +30,15 @@ contract ArrayMapping {
         }
     }
 
+    function addUserIntoWhiteListMapping(address _user) public isOwner {
+        whiteListMapping[_user] = true;
+    }
+
     function removeUserFromWhiteListArray(address _user) public {
         uint256 length = whiteListArray.length;
         uint256 index = 0;
 
-        for (_; index < length; index++) {
+        for (; index < length; index++) {
             if (whiteListArray[index] == _user) {
                 break;
             }
@@ -36,18 +46,20 @@ contract ArrayMapping {
 
         require(index < length);
 
-        for (_; index < length - 1; index++) {
+        for (; index < length - 1; index++) {
             whiteListArray[index] = whiteListArray[index + 1];
         }
 
-        whiteListArray.length--;
-    }
-
-    function addUserIntoWhiteListMapping(address _user) public {
-        whiteListMapping[_user] = true;
+        whiteListArray.pop();
     }
 
     function removeUserFromWhiteListMapping(address _user) public {
         whiteListMapping[_user] = false;
+    }
+
+    function mint(address _user) public {
+       ....
+      whiteListMapping[_user] = false;
+       ....
     }
 }

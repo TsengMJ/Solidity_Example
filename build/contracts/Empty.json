@@ -7,23 +7,23 @@
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
-  "sourceMap": "58:17:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "58:17:0:-:0;;;;;",
+  "sourceMap": "58:17:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "58:17:2:-:0;;;;;",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.13;\n\ncontract Empty {}\n",
   "sourcePath": "/Users/tsengmj/Documents/MJTseng/solidity_example/contracts/Empty.sol",
   "ast": {
     "absolutePath": "project:/contracts/Empty.sol",
     "exportedSymbols": {
       "Empty": [
-        2
+        201
       ]
     },
-    "id": 3,
+    "id": 202,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 200,
         "literals": [
           "solidity",
           "^",
@@ -31,7 +31,7 @@
           ".13"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:24:0"
+        "src": "32:24:2"
       },
       {
         "abstract": false,
@@ -40,34 +40,34 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 2,
+        "id": 201,
         "linearizedBaseContracts": [
-          2
+          201
         ],
         "name": "Empty",
-        "nameLocation": "67:5:0",
+        "nameLocation": "67:5:2",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 3,
-        "src": "58:17:0",
+        "scope": 202,
+        "src": "58:17:2",
         "usedErrors": []
       }
     ],
-    "src": "32:44:0"
+    "src": "32:44:2"
   },
   "legacyAST": {
     "absolutePath": "project:/contracts/Empty.sol",
     "exportedSymbols": {
       "Empty": [
-        2
+        201
       ]
     },
-    "id": 3,
+    "id": 202,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 200,
         "literals": [
           "solidity",
           "^",
@@ -75,7 +75,7 @@
           ".13"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:24:0"
+        "src": "32:24:2"
       },
       {
         "abstract": false,
@@ -84,20 +84,20 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 2,
+        "id": 201,
         "linearizedBaseContracts": [
-          2
+          201
         ],
         "name": "Empty",
-        "nameLocation": "67:5:0",
+        "nameLocation": "67:5:2",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 3,
-        "src": "58:17:0",
+        "scope": 202,
+        "src": "58:17:2",
         "usedErrors": []
       }
     ],
-    "src": "32:44:0"
+    "src": "32:44:2"
   },
   "compiler": {
     "name": "solc",
@@ -107,12 +107,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x449e9aafBEe755606A37caC9590b9cAfdD840D32",
-      "transactionHash": "0xc29de7823a276b28c7f83622e0035ddd734aae0910166d2c1a05a7ec06ec7758"
+      "address": "0x4A124BD295f994c26d5a088B5dE8a2CF18F29B1E",
+      "transactionHash": "0xcbce743ed1a288ff3904666800b60577808cd08e4347d85d97ef7d83ff0c6d58"
     }
   },
   "schemaVersion": "3.4.6",
-  "updatedAt": "2022-05-05T05:13:44.090Z",
+  "updatedAt": "2022-05-12T12:50:38.938Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
